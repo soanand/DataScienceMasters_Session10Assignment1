@@ -56,9 +56,8 @@ NOTE:​ ​The​ ​solution​ ​shared​ ​through​ ​Github​ ​sho
 
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 17 21:28:46 2018
-
-@author: hp-pc
+Created on Thu Jul 12 15:58:50 2018
+@author: soanand
 """
 
 #a=train_set['wage_class'].astype('category')
@@ -149,5 +148,7 @@ if __name__ == "__main__":
     model_path = model_training(X_train,y_train)
     y_pred = prediction(model_path,X_test)
     classifier_accuracy(y_test,y_pred)
+
+
     
 
